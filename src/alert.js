@@ -1,4 +1,4 @@
-function resolveAfter2Seconds() {
+function wait30s() {
     return new Promise(resolve => {
       setTimeout(() => {
         audioStop();
@@ -25,7 +25,7 @@ async function checkAlert(nowTime , listCookie){
                 audioStart();
                 test = alert("BUDZIK | GODZINA: " + nowTime);
                 console.log(test);
-                const result = await resolveAfter2Seconds();
+                const result = await wait30s();
                 
                
             }else{
