@@ -1,0 +1,24 @@
+input[type=text]{
+    background-color: transparent;
+    border: 2px solid transparent;
+    text-align: center;
+    width: 50px;
+
+    font-size: 25px;
+    font-weight: 500;
+}
+
+input[type="button"]{
+    background-color: transparent;
+    border: none;
+}
+
+.input{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex{
+    width: 90%;
+    margin: 0 auto;   
+}
